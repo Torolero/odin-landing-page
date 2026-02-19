@@ -8,6 +8,7 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo-links {
@@ -117,4 +118,44 @@ ul {
     font-weight: 700;
     display: flex;
     justify-content: flex-end;
+}
+
+.action-background {
+    background-color: #3882f6;
+    margin: 50px 100px;
+    border-radius: 8px;
+    padding: 50px 100px;
+}
+
+.second-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: #f9faf8 solid 2px;
+    width: 100px;
+}
+
+.action-header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.action-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
